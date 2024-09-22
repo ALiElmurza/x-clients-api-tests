@@ -1,0 +1,30 @@
+# database config
+jdbc:
+  datasource:
+    url: jdbc:postgresql://dpg-crgp14o8fa8c73aritj0-a.frankfurt-postgres.render.com/x_clients_db_75hr
+    username: x_clients_user
+    password: ypYaT7FBULZv2VxrJuOHVoe78MEElWlb
+    driver-class-name: org.postgresql.Driver
+
+# http config
+http:
+  clientUrl: "https://x-clients-be.onrender.com"
+  loginEndpoint: "/auth/login"
+
+
+#user request
+user:
+  details:
+    - FirstName
+    - LastName
+    - MiddleName
+    - email@email.com
+    - http://www.com
+    - "8900000000"
+    - 1985-05-15
+    - true
+
+# query
+query:
+  employee: "SELECT * FROM employee WHERE id = "
+  company: "SELECT * FROM employee WHERE company_id = "

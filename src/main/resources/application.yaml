@@ -1,0 +1,27 @@
+# database config
+jdbc:
+  datasource:
+    url: jdbc:postgresql://dpg-crgp14o8fa8c73aritj0-a.frankfurt-postgres.render.com/x_clients_db_75hr
+    username: x_clients_user
+    password: ypYaT7FBULZv2VxrJuOHVoe78MEElWlb
+    driver-class-name: org.postgresql.Driver
+
+# http config
+http:
+  clientUrl: "https://x-clients-be.onrender.com"
+  loginEndpoint: "/auth/login"
+
+
+#user request
+user:
+  details:
+    - name: "FirstName"
+    - name: "LastName"
+    - name: "MiddleName"
+    - name: "email@email.com"
+    - name: "http://www.com"
+    - name: "8900000000"
+    - name: "1985-05-15"
+    - name: "true"
+
+
